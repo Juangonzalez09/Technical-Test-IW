@@ -1,6 +1,8 @@
 # Arquitectura
 
-Diagrama interactivo: [arquitectura.html](arquitectura.html) (abrir en el navegador; tiene tema claro y oscuro y exportación a PNG/SVG).
+![Arquitectura](presupuesto-familia-miranda-arquitectura-diagrama.png)
+
+Versión interactiva: [arquitectura.html](arquitectura.html) (descargar y abrir en el navegador; tiene tema claro y oscuro).
 
 ## Flujo
 
