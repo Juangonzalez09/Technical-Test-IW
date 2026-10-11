@@ -1,5 +1,7 @@
 # Arquitectura
 
+Diagrama interactivo: [arquitectura.html](arquitectura.html) (abrir en el navegador; tiene tema claro y oscuro y exportación a PNG/SVG).
+
 ## Flujo
 
 ```

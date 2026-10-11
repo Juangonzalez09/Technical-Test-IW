@@ -52,7 +52,7 @@ silver   base de datos    modelo relacional (3FN) con los datos limpios
 gold     reportes         consultas para 02_reportes y Power BI
 ```
 
-Detalle del diseño, el modelo y el crecimiento a 5 años: [docs/arquitectura.md](docs/arquitectura.md).
+Diagrama interactivo: [docs/arquitectura.html](docs/arquitectura.html). Detalle del diseño, el modelo y el crecimiento a 5 años: [docs/arquitectura.md](docs/arquitectura.md).
 
 La base es Azure SQL Database (oferta gratuita). La conexión se lee del secreto `DATABASE_URL` de Colab o de la variable de entorno con el mismo nombre. **Las credenciales no están en el repo**: sin ellas los notebooks usan un archivo SQLite local y dan los mismos resultados, porque el código y el SQL son los mismos.
 
