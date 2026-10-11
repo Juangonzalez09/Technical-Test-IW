@@ -42,17 +42,9 @@ El modelo usa tres dimensiones (`periodo`, `rubro`, `miembro`) y lee solo las vi
 
 ## Arquitectura
 
-```
-bronze   data/bronze/     archivos originales sin modificar
-   │     ETL (01_etl)
-   ▼
-silver   base de datos    modelo relacional (3FN) con los datos limpios
-   │     vistas SQL
-   ▼
-gold     reportes         consultas para 02_reportes y Power BI
-```
+![Arquitectura](docs/presupuesto-familia-miranda-arquitectura-diagrama.png)
 
-Diagrama interactivo: [docs/arquitectura.html](docs/arquitectura.html). Detalle del diseño, el modelo y el crecimiento a 5 años: [docs/arquitectura.md](docs/arquitectura.md).
+Versión interactiva: [docs/arquitectura.html](docs/arquitectura.html). Detalle del diseño, el modelo y el crecimiento a 5 años: [docs/arquitectura.md](docs/arquitectura.md).
 
 La base es Azure SQL Database (oferta gratuita). La conexión se lee del secreto `DATABASE_URL` de Colab o de la variable de entorno con el mismo nombre. **Las credenciales no están en el repo**: sin ellas los notebooks usan un archivo SQLite local y dan los mismos resultados, porque el código y el SQL son los mismos.
 
